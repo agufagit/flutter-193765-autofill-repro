@@ -71,7 +71,7 @@ Tested with Flutter 3.47.5, Xcode 26.2 (17C52), and ordinary debug `flutter run`
 
 The manual-entry control passed on both targets. The simulator was created with `simctl create`, not cloned. AutoFill Passwords and Passkeys, the Passwords provider, and Suggest Strong Passwords were enabled on both targets. The different iOS versions mean this comparison does not isolate simulator versus hardware from the OS-version difference.
 
-The failure recording is provided in the linked Flutter issue. The sample does not authenticate an account or submit a password.
+The [failure recording](https://github.com/flutter/flutter/issues/193765#issuecomment-6098005557) is embedded in the Flutter issue reply. The sample does not authenticate an account or submit a password.
 
 ## Validation
 
